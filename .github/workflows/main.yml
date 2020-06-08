@@ -39,7 +39,7 @@ jobs:
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
-        deploy_key: ${{ secrets.8e6e29b5d1aec07fb8aade7e20b4dd24eb5a82ed }}
+        deploy_key: ${{ secrets.ACTION_DEPLOY_KEY }}
         external_repository: luckyliu1926/hexo-source
         publish_branch: master
         publish_dir: ./public
