@@ -99,6 +99,5 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo:
-    github: https://github.com/luckyliu1926/luckyliu1926.github.io.git
+  repo: https://github.com/luckyliu1926/luckyliu1926.github.io.git
   branch: master
