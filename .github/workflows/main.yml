@@ -38,9 +38,9 @@ jobs:
     # from https://github.com/peaceiris/actions-gh-pages    
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
-        with:
-          deploy_key: ${{ secrets.8e6e29b5d1aec07fb8aade7e20b4dd24eb5a82ed }}
-          external_repository: luckyliu1926/hexo-source
-          publish_branch: master
-          publish_dir: ./public
-          commit_message: ${{ github.event.head_commit.message }}    
+      with:
+        deploy_key: ${{ secrets.8e6e29b5d1aec07fb8aade7e20b4dd24eb5a82ed }}
+        external_repository: luckyliu1926/hexo-source
+        publish_branch: master
+        publish_dir: ./public
+        commit_message: ${{ github.event.head_commit.message }}    
