@@ -94,6 +94,7 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 plugin:
   - hexo-generator-feed
+  - hexo-generator-sitemap
 ## Themes: https://hexo.io/themes/
 theme: next-theme
 
@@ -105,17 +106,18 @@ deploy:
   branch: master
 
 feed:
-  type: atom
-  path: atom.xml
-  limit: 20
+  - type: atom
+    path: atom.xml
+    limit: 20
+  - type: leancloud_counter_security_sync
+
 
 leancloud_counter_security:
-  enable_sync: true
+  enable_sync: false
   app_id: R52wG6Ms3QVrkipQkYtStWM5-gzGzoHsz
   app_key: Qg5KfVk5xCFX3GTHmMMfXMvN
-  security: true
-  username: # Will be asked while deploying if is left blank
-  password: # Recommmended to be left blank. Will be asked while deploying if is left blank
+  username: luckyliu1926
+  password: lmm101821
 
 sitemap: 
   path: sitemap.xml
