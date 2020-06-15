@@ -108,3 +108,18 @@ feed:
   type: atom
   path: atom.xml
   limit: 20
+
+leancloud_counter_security:
+  enable_sync: true
+  app_id: R52wG6Ms3QVrkipQkYtStWM5-gzGzoHsz
+  app_key: Qg5KfVk5xCFX3GTHmMMfXMvN
+  security: true
+  username: # Will be asked while deploying if is left blank
+  password: # Recommmended to be left blank. Will be asked while deploying if is left blank
+
+sitemap: 
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
+
+url: https://luckyliu1926.top
