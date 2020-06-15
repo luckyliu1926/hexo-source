@@ -101,3 +101,8 @@ deploy:
   type: git
   repo: https://github.com/luckyliu1926/luckyliu1926.github.io.git
   branch: master
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
