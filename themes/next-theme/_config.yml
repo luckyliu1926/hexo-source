@@ -122,7 +122,7 @@ menu:
   tags: /tags/|| tags
   archives: /archives/|| archive
   # message: /message/|| heart
-  photo: /photo/|| image
+  # photo: /photo/|| image
   music: /music/|| music
   welfare: /welfare/|| leaf
   book: /book/|| book
